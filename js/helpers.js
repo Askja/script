@@ -1,0 +1,2 @@
+function is_null(n){return null===n}function is_numeric(n){return"number"==typeof n}function is_string(n){return"string"==typeof n}function is_array(n){return"array"==typeof n}function is_object(n){return"object"==typeof n}function is_undefined(n){return void 0===n}function count(n){return n.length||0}
+var extractColumn = (a,b) => {return a.map(a=>a[b])};
